@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class JAB2 {
+public class LAB2 {
 
     public static void main(String[] args) {
         try {
@@ -19,9 +19,9 @@ public class JAB2 {
             output.close();
 
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(JAB2.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LAB2.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            Logger.getLogger(JAB2.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LAB2.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         try {
@@ -31,9 +31,9 @@ public class JAB2 {
                 System.out.println(ch);
             }
         } catch (FileNotFoundException ex) {
-            Logger.getLogger(JAB2.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LAB2.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
-            Logger.getLogger(JAB2.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LAB2.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 }
